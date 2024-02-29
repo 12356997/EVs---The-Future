@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electric Vehicles</title>
+
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+            background-color:rgb(244, 240, 235);
+        }
+
+        header {
+            color:white;
+            text-align: center;
+            padding: 50px;
+            background-color:black;
+        }
+
+        /* header h1{
+            background-color: black;
+        } */
+
+        .header img{
+            float: top;
+            width: 50px;
+            height: 50px;
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+         h3{
+            font-size: 25px
+         }
+         h2{
+            font-size: 30px
+         }
+
+         .Aboutus {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+         }
+         
+         
+         
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 20px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section center p{
+            text-align: center;
+        }
+
+        .im {
+            width: 90%;
+            max-width: 700px;
+            display: block;
+            margin: 20px auto 0;
+        }
+        /* section p{
+            font-size: 20;
+        } */
+
+        /* Add more styles for your content, images, and other elements here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b><I>The Future - Electronic Vehicles</I></b></h1>
+    </header>
+
+    
+    <nav>
+        <a href="#About">Introduction</a>
+        <a href="#Models">Models</a>
+        <a href="#Development">Development</a>
+        <a href="#Charging">Charging</a>
+        <a href="#About us">About us</a>
+        
+    </nav>
+    <div class="vector-header-end">
+			
+        <div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+            <a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" id="" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+        
+            </a>
+            <div class="vector-typeahead-search-container" style="text-align: right">
+                <div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+                    <form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+                        <div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+                            <div class="cdx-text-input cdx-text-input--has-start-icon">
+                                <input
+                                    class="cdx-text-input__input"
+                                     type="search" name="search" placeholder="Search" aria-label="Search" autocapitalize="sentences" title="Search[f]" accesskey="f" id="searchInput"
+                                    >
+                                <span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+                            </div>
+                            <input type="hidden" name="title" value="Special:Search">
+                        </div>
+                        <button class="cdx-button cdx-search-input__end-button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <img src="https://images.squarespace-cdn.com/content/v1/5d875ec6f4f6d6779d29c5d5/d55ee571-d619-45a1-9673-e7095c4582dc/EV+4.jpeg?format=1500w" alt="Diagram of an electric vehicle" class="im">
+
+    <section id="about">
+        <h3>About Electric Vehicles</h3>
+        <p>Today when the world is thriving to use day by day new technology everywhere, Electric Vehicles must be the future means of transport. Pollution, growing demand for fuel, Global Warming, promoting eco-friendly means of transport are some of the reasons for promoting electric vehicles. Electric Vehicles are means of transport that consume eclectic energy as fuel instead of traditional fuels such as petrol, diesel, and CNG. These vehicles may be powered through a collector system by electricity from off-vehicle sources or maybe inbuilt with a battery, solar panels, fuel cells, or an electric generator to convert fuel to electricity. Electric bikes, electric cars, electric rickshaws, etc are some examples of electric vehicles. Most of the trains including metros are already running worldwide through electricity.</p>
+    </section>
+
+    <section id="models">
+        <h3>Electric Vehicle Models</h3>
+        <p>Currently, there are 12 electric cars on sale in India. Of these, the MG Comet EV is the cheapest EV while the BMW i7 is the most expensive electric car in India. Upcoming electric cars in India include Ford Mustang Mach E,Fisker Ocean and Tata Punch EV among others.
+            Electric Cars Price List 2023
+MODEL	EX-SHOWROOM PRICE:
+<ol>
+<li>Tata Tiago EV	Rs. 8.69 - 12.04 Lakh</li> 
+<li>Kia EV6	Rs. 60.95 - 65.95 Lakh</li> 
+<li>Tata Nexon EV	Rs. 14.74 - 19.94 Lakh</li>
+<li>MG Comet EV	Rs. 7.98 - 9.98 Lakh</li> 
+<li>Mahindra XUV400 EV	Rs. 15.99 - 19.39 Lakh</li>
+</ol>
+        </p>
+    </section>
+    <img src="https://ahssinsights.org/wp-content/uploads/2019/12/Vol14_Fig1_BNEF_2017-04_AT_Electric-Car-Boom.png" class="im">
+    <section id="Development">
+        <h2>Development about electronic vechiles in today generation</h2>
+        <p>In recent years, as a new means of transportation, electric vehicles (EVs) have been more highly valued by the international market because of their advantages of energy saving and emission reduction. This article analyzes electric vehicles development trends, including the use of renewable energy as a charging resource. It also includes discussion of a demonstration project of how EVs provide backup capacity to suppress load fluctuation. Worldwide about 370 electric car models were available in 2020, a 40% increase from 2019. China has the widest offering, reflecting its less consolidated automotive sector and that it is the world's largest EV market, But in 2020 the biggest increase in number of models was in Europe where it more than doubled.</p>
+        <p>EVs using power from clean energy sources can reduce CO2 emissions. However, if the original source of that power is fossil-based, the CO2 emissions will increase due to the batteries poor net efficiency. EVs therefore should use renewable energy for charging. If EVs communicate with the power grid to reflect the prosumer response by charging from the grid or discharging to the grid, vehicle-to-grid (V2G) technology seems to be more important.
+            Existing EVs can mainly be divided into three types: battery electric vehicles (BEV), hybrid electric vehicles (HEV) and fuel cell electric vehicles (FCEV). BEV and Plug-in HEV are directly connected to the power grid. At any given time, 95 percent of cars are parked, so batteries in EVs could be used to return electricity to the grid or draw the electricity from the grid for peak load shifting. EVs can respond to prosumers of distribution system operators (DSO) or provide ancillary services for transmission system operators (TSO).
+        </p>
+        <h3>Vehicles Types</h3>
+        <p><b>Ground Vehicles</b></p>
+        <p>(Or)</p>
+        <p><b>Pure Vehicles</b></p>
+        <img src="https://cdni.autocarindia.com/ExtraImages/20220512015519_Tata%20Nexon%20EV.jpg" class="im">
+        <p>A pure-electric vehicle or all-electric vehicle is powered exclusively through electric motors. The electricity may come from a battery (battery electric vehicle), solar panel (solar vehicle) or fuel cell (fuel cell vehicle).</p>
+        <p><b>Hybrid EVs</b></p>
+        <img src="https://www.servotech.in/blog/wp-content/uploads/2023/09/Honda-City-EHEV-2.png" class="im">
+                <p id="center"><b>Honda City Ehev Hybrid car </b></p>
+        <p>A hybrid electric vehicle (HEV) is a type of hybrid vehicle that combines a conventional internal combustion engine (ICE) system with an electric propulsion system (hybrid vehicle drivetrain). The presence of the electric powertrain is intended to achieve either better fuel economy than a conventional vehicle or better performance. There is a variety of HEV types and the degree to which each function as an electric vehicle (EV) also varies. The most common form of HEV is the hybrid electric car, although hybrid electric trucks (pickups and tractors), buses, boats and aircraft also exist.</p>
+        <p>Modern HEVs make use of efficiency-improving technologies such as regenerative brakes which convert the vehicle's kinetic energy to electric energy, which is stored in a battery or supercapacitor. Some varieties of HEV use an internal combustion engine to turn an electrical generator, which either recharges the vehicle's batteries or directly powers its electric drive motors; this combination is known as a motor–generator.[51] Many HEVs reduce idle emissions by shutting down the engine at idle and restarting it when needed; this is known as a start-stop system. A hybrid-electric produces lower tailpipe emissions than a comparably sized gasoline car since the hybrid's gasoline engine is usually smaller than that of a gasoline-powered vehicle. If the engine is not used to drive the car directly, it can be geared to run at maximum efficiency, further improving fuel economy.
+            There are different ways that a hybrid electric vehicle can combine the power from an electric motor and the internal combustion engine. The most common type is a parallel hybrid that connects the engine and the electric motor to the wheels through mechanical coupling. In this scenario, the electric motor and the engine can drive the wheels directly. Series hybrids only use the electric motor to drive the wheels and can often be referred to as extended-range electric vehicles (EREVs) or range-extended electric vehicles (REEVs). There are also series-parallel hybrids where the vehicle can be powered by the engine working alone, the electric motor on its own, or by both working together; this is designed so that the engine can run at its optimum range as often as possible.</p>
+        <p><b>Plug-in electric vehicle</b></p>
+        <img src="https://afdc.energy.gov/vite/assets/plugin.b98fca6b.jpg" class="im">
+        <p>A plug-in electric vehicle (PEV) is any motor vehicle that can be recharged from any external source of electricity, such as wall sockets, and the electricity stored in the Rechargeable battery packs drives or contributes to drive the wheels. PEV is a subcategory of electric vehicles that includes battery electric vehicles (BEVs), plug-in hybrid vehicles, (PHEVs), and electric vehicle conversions of hybrid electric vehicles and conventional internal combustion engine vehicles</p>
+        <p><b>Range-extended electric vehicle</b></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Acp_tzero_DSC00467.jpg" class="im">
+        <p>A range-extended electric vehicle (REEV) is a vehicle powered by an electric motor and a plug-in battery. An auxiliary combustion engine is used only to supplement battery charging and not as the primary source of power.</p>
+        <p><b>On- and off-road EVs</b></p>
+        <img src="https://i0.wp.com/technode.com/wp-content/uploads/2023/01/byd-u8-suv-1.jpg?fit=1200%2C675&ssl=1" class="im">
+        <p>On-road electric vehicles include electric cars, electric trolleybuses, electric buses, battery electric buses, electric trucks, electric bicycles, electric motorcycles and scooters, personal transporters, neighborhood electric vehicles, golf carts, milk floats, and forklifts. Off-road vehicles include electrified all-terrain vehicles and tractors.</p>
+        <p><b>Railborne EVs</b></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/ULF_B.jpg/200px-ULF_B.jpg" class="im">
+        <p>The fixed nature of a rail line makes it relatively easy to power EVs through permanent overhead lines or electrified third rails, eliminating the need for heavy onboard batteries. Electric locomotives, electric multiple units, electric trams (also called streetcars or trolleys), electric light rail systems, and electric rapid transit are all in common use today, especially in Europe and Asia.
+
+            Since electric trains do not need to carry a heavy internal combustion engine or large batteries, they can have very good power-to-weight ratios. This allows high speed trains such as France's double-deck TGVs to operate at speeds of 320 km/h (200 mph) or higher, and electric locomotives to have a much higher power output than diesel locomotives. In addition, they have higher short-term surge power for fast acceleration, and using regenerative brakes can put braking power back into the electrical grid rather than wasting it.
+            
+            Maglev trains are also nearly always EVs.
+            
+            There are also battery electric passenger trains operating on non-electrified rail lines.</p>
